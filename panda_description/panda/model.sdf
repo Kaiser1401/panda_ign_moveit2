@@ -589,8 +589,8 @@
       <axis>
         <xyz>0 1 0</xyz>
         <limit>
-          <lower>0</lower>
-          <upper>0.040000000000000001</upper>
+          <lower>-0</lower>
+          <upper>0.04</upper>
           <effort>20</effort>
           <velocity>0.20000000000000001</velocity>
         </limit>
@@ -662,7 +662,7 @@
         <xyz>0 -1 0</xyz>
         <limit>
           <lower>0</lower>
-          <upper>0.040000000000000001</upper>
+          <upper>0.04</upper>
           <effort>20</effort>
           <velocity>0.20000000000000001</velocity>
         </limit>
@@ -727,7 +727,7 @@
       </visual>
     </link>
     <plugin name='gz_ros2_control::GazeboSimROS2ControlPlugin' filename='libgz_ros2_control-system'>
-      <parameters>/home/klaus/code/pymi2_ws/install/panda_moveit_config/share/panda_moveit_config/config/controllers_effort.yaml</parameters>
+      <parameters>/home/klaus/code/pymi2_ws/install/share/panda_moveit_config/config/controllers_effort.yaml</parameters>
     </plugin>
     <frame name='panda_hand_tcp_virtual_joint' attached_to='panda_hand'>
       <pose>0 0 0.10340000000000001 0 0 0</pose>

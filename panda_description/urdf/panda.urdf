@@ -558,7 +558,7 @@
   <gazebo>
     <!--      <plugin filename="ign_ros2_control-system" name="ign_ros2_control::IgnitionROS2ControlPlugin"> -->
     <plugin filename="libgz_ros2_control-system" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
-      <parameters>/home/klaus/code/pymi2_ws/install/panda_moveit_config/share/panda_moveit_config/config/controllers_effort.yaml</parameters>
+      <parameters>/home/klaus/code/pymi2_ws/install/share/panda_moveit_config/config/controllers_effort.yaml</parameters>
     </plugin>
   </gazebo>
 </robot>
